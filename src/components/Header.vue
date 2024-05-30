@@ -30,7 +30,7 @@ export default {
 
     <div class="flex gap-9">
         <div class="grid grid-cols-2 place-items-center ">
-            <img src="/img/Катало_бургер.png" alt="">
+            <img src="/img/Катало_бургер.png" alt="" class="w-[120px]">
             <img src="/img/Лого.png" alt="">
         </div>
         <div class="grid place-items-center  ">

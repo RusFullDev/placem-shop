@@ -10,7 +10,12 @@ export default {
       padding:'2rem',
       width:'1295px'
     },
-    extend: {},
+    extend: {
+      backgroundImage:{
+        grad:'linear-gradient(96.78deg, #F64D4D -57.09%, #4D5EF6 101.17%)'
+        
+      }
+    },
   },
   plugins: [],
 }
