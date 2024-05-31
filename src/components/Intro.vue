@@ -58,7 +58,7 @@ title:'Спорт и развлечения'
         <div class="shadow bg-white w-[296px]  ">
             <div class="bg-grad px-7">
                 <div class="flex gap-2 py-[10px] items-center">
-                    <img src="/public/img/menu (2).png" alt="">
+                    <img src="/img/menu (2).png" alt="">
                     <h2 class="text-white">Популярные категории</h2>
                 </div>
             </div>

@@ -12,7 +12,9 @@ export default {
     },
     extend: {
       backgroundImage:{
-        grad:'linear-gradient(96.78deg, #F64D4D -57.09%, #4D5EF6 101.17%)'
+        grad:'linear-gradient(96.78deg, #F64D4D -57.09%, #4D5EF6 101.17%)',
+      
+        
         
       }
     },

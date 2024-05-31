@@ -8,6 +8,7 @@ export default {
 }
 </script>
 <template>
+    <div class="mb-5">
     <div class="flex justify-end gap-[31%] mt-4">
         <div class="flex items-center gap-5">
             <div class="flex items-center gap-1">
@@ -28,10 +29,10 @@ export default {
         </div>
     </div>
 
-    <div class="flex gap-9">
-        <div class="grid grid-cols-2 place-items-center ">
-            <img src="/img/Катало_бургер.png" alt="" class="w-[120px]">
-            <img src="/img/Лого.png" alt="">
+    <div class="flex justify-between gap-10">
+        <div class="grid grid-cols-2 place-items-center">
+           <div class="p-6 bg-grad "> <img src="/icon/gap.svg" alt="" class="w-full"></div>
+            <img src="/img/Лого.png" alt=""  >
         </div>
         <div class="grid place-items-center  ">
             <div class="border border-[#F64D4D] w-[624px] h-[46px] relative items-center px-1 py-1">
@@ -48,7 +49,7 @@ export default {
         </div>
     </div>
 
-
+</div>
 </template>
 
 

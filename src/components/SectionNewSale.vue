@@ -96,7 +96,7 @@ const product = reactive(
 
 <template>
     <div class="my-7">
-<h1 class="pb-5 font-normal text-[28px] leading-8 text-black pl-5">Успей купить</h1>
+<h1 class="pb-5 font-normal text-[28px] leading-8 text-black pl-5">Новинки</h1>
 <div class="grid grid-cols-6 gap-5 mb-5">
 <div v-for="item,index in product" class="" >
     <div class="shadow-md bg-white items-center w-full h-full px-3 py-3">
@@ -109,13 +109,11 @@ const product = reactive(
 </div>
 </div>
 </div>
-    <div class="flex justify-end">
-        <button class="text-black font-medium text-sm w-[187px] h-[44px] border-2 border-violet-700">Все товары</button>
+<div class="flex justify-end">
+    <button class="text-black font-medium text-sm w-[187px] h-[44px] border-2 border-violet-700">Все товары</button>
     </div>
     </div>
 </template>
-
-
 
 <style lang="scss" scoped>
 
